@@ -1,0 +1,68 @@
+/**
+ * Theme Name:   Astra Child
+ * Theme URI:    http://github.com/mnestorov/astra-child
+ * Description:  A child theme for Astra
+ * Author:       Martin Nestorov
+ * Author URI:   http://github.com/mnestorov
+ * Template:     astra
+ * Version:      1.0.0
+*/
+
+h4.meta {
+	border: 1px solid #cfcfcf;
+	background: rgb(220, 239, 250);
+	font-size: 1.5rem;
+	margin: 20px 0;
+	padding: 5px 10px;
+}
+
+h4.meta span {
+	font-weight: bold;
+}
+
+ul.profile-friends {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	ul.profile-friends {
+		flex-wrap: wrap;
+	}
+}
+
+ul.profile-friends li {
+	margin: 10px;
+	width: 35%;
+}
+
+ul.profile-friends li.friends-frame {
+	border: 1px solid #cfcfcf;
+	text-align: center;
+	font-weight: bold;
+}
+
+section.resume {
+	border: 1px solid #cfcfcf;
+	padding: 0 15px 15px;
+	margin-bottom: 15px;
+}
+
+.resume div {
+	border-bottom: 1px solid #cfcfcf;
+	margin-top: 15px;
+}
+
+.resume div .date {
+	float: right;
+}
+
+.resume div .simple-description {
+	margin: 5px 0;
+	font-size: 1.25rem;
+	font-style: italic;
+}
