@@ -1,7 +1,7 @@
 
 # Astra Child
 
-A WordPress child theme for [Astra theme](https://wordpress.org/themes/astra/), using it to test some ACF functionallity.
+A WordPress child theme for [Astra theme](https://wordpress.org/themes/astra/) created by me for testing some ACF functionallity.
 
 ## Required plugins
 
