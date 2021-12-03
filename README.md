@@ -19,3 +19,23 @@ A WordPress child theme for [Astra theme](https://wordpress.org/themes/astra/), 
 4) WordPress will now upload the theme zip file from your computer and install it. It will also check if the parent theme is installed. If parent theme is available from [WordPress.org](https://wordpress.org) theme directory, then it will try to install it. Otherwise, it will let you know that you will need to install parent theme manually.
 
 5) After installing both parent and child themes, you can go ahead and activate the child theme.
+
+## Screenshots
+
+**Profile page**
+
+<img src="https://github.com/mnestorov/astra-child/blob/main/screenshots/01.jpg">
+
+All the data in to the alien profile cames from ACF.
+
+**Add New Profile**
+
+<img src="https://github.com/mnestorov/astra-child/blob/main/screenshots/02.jpg">
+
+Adding new alien profile from the front end.
+
+**Fun Facts**
+
+<img src="https://github.com/mnestorov/astra-child/blob/main/screenshots/03.jpg">
+
+The `Fun Facts` Gutenberg blocks are made with ACF.
