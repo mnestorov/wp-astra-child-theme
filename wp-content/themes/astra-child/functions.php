@@ -1,6 +1,6 @@
 <?php
 
-define( 'LIL_PATH', trailingslashit( get_stylesheet_directory() ) );
+define( 'MN_PATH', trailingslashit( get_stylesheet_directory() ) );
 
 if ( ! function_exists( 'mn_astra_child_enqueue_styles' ) ) {
 	/**
@@ -51,8 +51,8 @@ if ( ! function_exists( 'mn_render_fun_facts_block' ) ) {
 		// Convert name ("acf/fun-facts") into path friendly slug ("fun-facts").
 		$slug = str_replace( 'acf/', '', $block['name'] );
 
-		if ( file_exists( LIL_PATH . "template-parts/block/content-{$slug}.php" ) ) {
-			include LIL_PATH . "template-parts/block/content-{$slug}.php";
+		if ( file_exists( MN_PATH . "template-parts/block/content-{$slug}.php" ) ) {
+			include MN_PATH . "template-parts/block/content-{$slug}.php";
 		}
 	}
 }
