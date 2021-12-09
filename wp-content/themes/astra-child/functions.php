@@ -5,6 +5,8 @@ define( 'MN_PATH', trailingslashit( get_stylesheet_directory() ) );
 if ( ! function_exists( 'mn_astra_child_enqueue_styles' ) ) {
 	/**
 	 * Enqueue styles
+	 *
+	 * @return void
 	 */
 	function mn_astra_child_enqueue_styles() {
 		/**
@@ -21,6 +23,8 @@ add_action( 'wp_enqueue_scripts', 'mn_astra_child_enqueue_styles' );
 if ( ! function_exists( 'mn_define_block' ) ) {
 	/**
 	 * Define custom block
+	 *
+	 * @return void
 	 */
 	function mn_define_block() {
 		// Check if function exists.
@@ -46,6 +50,9 @@ add_action( 'acf/init', 'mn_define_block' );
 if ( ! function_exists( 'mn_render_fun_facts_block' ) ) {
 	/**
 	 * Render block for fun facts
+	 *
+	 * @param array $block
+	 * @return void
 	 */
 	function mn_render_fun_facts_block( $block ) {
 		// Convert name ("acf/fun-facts") into path friendly slug ("fun-facts").
@@ -59,7 +66,10 @@ if ( ! function_exists( 'mn_render_fun_facts_block' ) ) {
 
 if ( ! function_exists( 'mn_child_nav_menu_args' ) ) {
 	/**
-	 *  Display different menus to logged-in users
+	 * Display different menus to logged-in users
+	 *
+	 * @param string $args
+	 * @return $args
 	 */
 	function mn_child_nav_menu_args( $args = '' ) {
 
