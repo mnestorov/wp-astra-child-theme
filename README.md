@@ -39,3 +39,9 @@ Adding new alien profile from the front end.
 <img src="https://github.com/mnestorov/astra-child/blob/main/screenshots/03.jpg">
 
 The `Fun Facts` Gutenberg blocks are made with ACF.
+
+---
+
+## License
+
+This project is released under the MIT License.
